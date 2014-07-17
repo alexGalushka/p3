@@ -4,6 +4,24 @@ p3.promptdev.com
 # there is an issue with my server: it could be my setup or something from their end...
 working on it right now... [07/17/14 2:10 pm]
 
+I had to switch to OpenShift...
+
+URL:
+
+http://p3-galushka.rhcloud.com/
+
+I've faced with another issue:
+
+"include(/var/lib/openshift/53c854075004467269000092/app-root/runtime/repo/vendor/badcow/lorem-ipsum/lib/Badcow/LoremIpsum/Generator.php):
+failed to open stream: No such file or directory"
+
+the same for other link
+
+I did follow instructions and changed gitignore to include the vendor folder.
+Committed, pushed and pushed to OpenShift
+
+It still didn't work...
+
 
 ## Laravel PHP Framework
 
