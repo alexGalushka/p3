@@ -11,7 +11,11 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+View::share('paragraphs', 'GenTextController@GetParagraphs');
+
+Route::get('/', 'IndexController@ShowLoremIpsum');
+
+Route::get('/lorem-ipsum', 'GenTextController@ShowLoremIpsum');
+
+Route::post('/lorem-ipsum', 'GenTextController@ProcessInput');
+
