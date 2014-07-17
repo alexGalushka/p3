@@ -1,3 +1,10 @@
+URL:
+
+p3.promptdev.com
+# there is an issue with my server: it could be my setup or something from their end...
+working on it right now... [07/17/14 2:10 pm]
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
