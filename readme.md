@@ -1,12 +1,4 @@
-URL:
-
-p3.promptdev.com
-# there is an issue with my server: it could be my setup or something from their end...
-working on it right now... [07/17/14 2:10 pm]
-
-I had to switch to OpenShift...
-
-URL:
+URL (it's working now):
 
 http://p3-galushka.rhcloud.com/
 
